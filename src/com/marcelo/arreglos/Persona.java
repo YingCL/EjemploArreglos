@@ -1,7 +1,7 @@
 package com.marcelo.arreglos;
 
 public class Persona {
-    private String nombre;
+    private String nombre;  
     
     public Persona (String nombre) {
         this.nombre = nombre;      
@@ -17,7 +17,7 @@ public class Persona {
 
     @Override
     public String toString() {
-        return "Persona{" + "nombre=" + getNombre() + '}';
+        return "Persona{" + "nombre=" + getNombre() + "}";
     }
     
 }
